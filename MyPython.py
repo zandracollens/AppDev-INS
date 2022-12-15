@@ -3,7 +3,7 @@ def myName(name: str):
 
 def executeScript(name: str, toggle:bool=None):
     if __name__ != "__main__": # Turn the logic of this line from Not Equals to Equals
-        myName("Marc John Benamera")
+        myName("name")
     else:
         print("...logic steered here...")
     if (toggle!=None):
