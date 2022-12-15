@@ -1,0 +1,24 @@
+using System;
+					
+public class Program
+{
+	public static void Main(string[] args)
+	{
+		FruitsPrice("Banana","Mango");
+		FruitsPrice(120.10,280);
+		
+	}
+	
+	public static void Fruits(string kilos, string tamis)
+	{
+	string scale = kilos + tamis;
+		Console.WriteLine(scale);
+	}
+	public static void FruitsPrice(double mahal, double mura)
+	{
+		double tawad = mahal + mura;
+		Console.WriteLine(tawad);
+		
+		Console.ReadKey();
+	}
+}
