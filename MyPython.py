@@ -14,3 +14,4 @@ def executeScript(name: str, toggle:bool=None):
 
 executeScript("Marc John Benamera")
 executeScript("Marc John Benamera", True) # Turn this argument to False to switch the possible output
+# Before sending your pull request, change the name inside the executeScript with your own name
