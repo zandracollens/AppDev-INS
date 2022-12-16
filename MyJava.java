@@ -1,14 +1,23 @@
-public class MyJava
-{
-  public static void main(String[] args)
-  {
-    // Insert code from line below this comment where it instantiates the MyJava object into variable named pin, then call the method named printName(String name);
-    // Expected Line 1, replace this comment with code on pull request
-    // Expected Line 2, replace this comment with code on pull request
-  }
-  
-  public void printName(String name)
-  {
-    System.out.println("Hello! My name is " + name + "!");
-  }
-}
+import java.util.*;     
+public class AverageOfList  
+{  
+public static void main(String args[])   
+{  
+int sum = 0, avg;      
+ArrayList<Integer> list = new ArrayList<Integer>();    
+//adding elements to the List  
+list.add(12);  
+list.add(34);  
+list.add(10);  
+list.add(48);  
+list.add(65);  
+//loop iterates over the List  
+for(int i = 0; i < list.size(); i++)  
+//getting elements from the list and adding to the variable sum   
+sum = sum + list.get(i);  
+//finds the average of the list  
+avg = sum / list.size();   
+//prints the result  
+System.out.println("The average of the List: " + avg);  
+}  
+}  
